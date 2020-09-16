@@ -1,0 +1,29 @@
+@media (max-width: 992px)
+{
+    .navbar-collapse
+    {
+        background: rgba(32, 32, 32, 1);
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 768px)
+{
+    /* === Hero === */
+    .image-box
+    {
+        display: none;
+    }
+
+    /* === Contact === */
+    #contact .address
+    {
+        margin-top: 2rem;
+    }
+
+    /* === Footer === */
+    .footer-logo
+    {
+        margin-top: 1rem;
+    }
+}
